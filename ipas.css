@@ -1,0 +1,250 @@
+#materi {
+  padding: 60px 20px;
+  background: #f6fbf6;
+  text-align: left;
+  color: #1b5e20;
+  font-width: bold;
+}
+
+#materi h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px;
+  color: #1b5e20;
+  margin: 0;
+  text-align: center;
+}
+
+.materi-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.materi-box p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.materi-box h3 {
+  color: #1b5e20;
+  font-size: 24px;
+  margin-top: 0;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.materi-box h4 {
+  color: #2e7d32;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.jenis-grid, .tiga-r-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.jenis-card, .r-card {
+  background: #e8f5e9;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 5px solid #4caf50;
+}
+
+.jenis-card span, .r-card span {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-top: 8px;
+}
+
+.tujuan-list, .cara-list {
+  line-height: 1.8;
+  padding-left: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.box-beranda {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.btn-beranda {
+  display: inline-block;
+  background-color: #2e7d32; 
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px; 
+  transition: 0.2s ease;
+}
+
+.btn-beranda:hover {
+  background-color: #1b5e20;
+}
+
+/* Container Utama */
+.materi-box {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #2d3748;
+}
+
+/* Badge & Header */
+.badge-kategori {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2e7d32;
+  letter-spacing: 1px;
+}
+
+.judul-produk {
+  font-size: 28px;
+  color: #1b5e20;
+  margin: 6px 0 12px 0;
+}
+
+.deskripsi-singkat {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Layout 2 Kolom (Alat & Bahan vs Langkah Kerja) */
+.dua-kolom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.kolom-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.kolom-card h4 {
+  color: #1b5e20;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* List Styling */
+.list-centang, .list-langkah {
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #4a5568;
+  margin: 0;
+}
+
+.list-centang li {
+  list-style-type: '✓ ';
+}
+
+/* Card Estimasi Biaya */
+.card-biaya {
+  background-color: #f0fdf4;
+  border: 1px solid #c6f6d5;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 25px;
+}
+
+.card-biaya h4 {
+  color: #1b5e20;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.tabel-biaya-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.info-biaya h5 {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  color: #2e7d32;
+}
+
+.info-biaya p {
+  font-size: 13px;
+  color: #4a5568;
+  margin: 0;
+}
+
+.tabel-biaya {
+  width: 50%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.tabel-biaya td {
+  padding: 6px 0;
+  border-bottom: 1px dashed #cbd5e0;
+}
+
+.tabel-biaya .harga {
+  text-align: right;
+  font-weight: 600;
+}
+
+.baris-total td {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.baris-laba td {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+/* Tombol Kembali */
+.tombol-kembali {
+  margin-top: 30px;
+}
+
+.tombol-kembali a {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.tombol-kembali a:hover {
+  background-color: #1b5e20;
+}
+
+/* Responsif untuk Layar HP */
+@media (max-width: 600px) {
+  .dua-kolom, .tabel-biaya-container {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .tabel-biaya {
+    width: 100%;
+  }
+}
